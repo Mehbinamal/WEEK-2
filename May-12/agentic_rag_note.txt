@@ -1,0 +1,16 @@
+Agentic RAG (Retrieval Augmented Generation with Agents) is an advanced evolution of the traditional RAG paradigm.
+RAG is a technique that combines retrieval mechanisms with generative models to produce more accurate and grounded responses.
+In Agentic RAG, the process is enhanced by introducing autonomous agents that can reason, plan, and interact with tools or knowledge sources.
+These agents are capable of executing complex, multi-step tasks by orchestrating retrieval and generation dynamically.
+Unlike static RAG pipelines, agentic systems exhibit proactive behavior, where agents decide when and how to retrieve information.
+Agents can manage sub-goals, trigger specific retrieval actions, and use the retrieved knowledge in context-aware generation.
+They may also interact with multiple data sources, APIs, or tools to gather and verify information before response generation.
+This approach allows the system to handle more nuanced, context-dependent, and multi-turn tasks effectively.
+Agentic RAG systems often incorporate memory mechanisms to maintain conversation history and learning capabilities for long-term improvement.
+They are useful in applications like AI assistants, research agents, and autonomous decision support systems.
+Agentic RAG can support reasoning workflows like chain-of-thought prompting, retrieval chaining, or tool use orchestration.
+Frameworks like LangChain and OpenAI's function calling APIs support building agentic RAG architectures.
+This paradigm aims to bridge the gap between retrieval-augmented systems and autonomous AI agents capable of solving open-ended problems.
+Agentic RAG empowers agents to retrieve precisely what is needed, ensuring the generative model's outputs are both relevant and factually grounded.
+It enhances trustworthiness, transparency, and adaptability of AI systems in complex real-world scenarios.
+Organizations adopt Agentic RAG to build smarter, more reliable AI systems that can handle enterprise-grade, knowledge-intensive tasks.
