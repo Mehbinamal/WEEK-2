@@ -1,0 +1,18 @@
+
+Prompt engineering is the skill of writing good prompts to get useful answers from AI models like ChatGPT. A prompt is basically the text or question you give to the AI. The way you write the prompt affects how the AI understands it and what kind of answer you get.
+
+In simple words, prompt engineering is like asking smart questions to get smart answers. If the question is clear, detailed, and focused, the AI will give better and more useful responses. If the question is confusing or too short, the answer might not be helpful.
+
+For example, instead of saying "Explain Python," you can say "Explain Python as if I am a 10-year-old who knows nothing about programming." This makes the AI understand the style and depth you want.
+
+Prompt engineering is important because AI models do not really understand things the way humans do. They work based on patterns from lots of text data. So the clearer your instructions, the more likely they will match the patterns that give the answer you need.
+
+You can also use prompt engineering to make the AI do creative tasks like writing poems, solving math problems, or acting like a teacher. You can ask the AI to follow steps, use examples, or think step by step.
+
+Some tips for good prompt engineering are:
+- Be clear and specific.
+- Give context if needed.
+- Tell the AI what format you want the answer in (like a list, table, or story).
+- If the first answer is not perfect, try rephrasing the prompt.
+
+In short, prompt engineering is a useful skill to communicate with AI in the right way to get the best results. It is like talking to a smart robot using clear instructions.
