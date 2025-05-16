@@ -2,27 +2,20 @@ import autogen
 import google.generativeai as genai
 import os
 
-# Configure Gemini
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-# Get the absolute path to the web directory
+# Path to web directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
 web_dir = os.path.join(current_dir, 'web')
 
-config_list = [
-    {
-        'model': 'gemini-1.5-flash',
-        'api_key': os.getenv("GOOGLE_API_KEY"),
-        'base_url': 'https://generativelanguage.googleapis.com/v1beta/models',
-        'api_type': 'google'
-    }
-]
-
 llm_config = {
-    "config_list": config_list,
+    "model": "gemini-1.5-flash",
+    "api_key": os.getenv("GOOGLE_API_KEY"),
+    "api_type": "google",
     "temperature": 0,
     "seed": 42
 }
+
 
 assistant = autogen.AssistantAgent(
     name="CTO",
@@ -49,4 +42,3 @@ user_proxy.initiate_chat(
     assistant,
     message=task
 )
-

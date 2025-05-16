@@ -1,0 +1,57 @@
+
+Single-Agent vs. Multi-Agent RAG: Comparative Note
+
+1. Definition:
+- Single-Agent RAG:
+  A single model (agent) retrieves relevant documents and generates responses. Both retrieval and generation tasks are handled by the same agent or a tightly integrated pipeline.
+  
+- Multi-Agent RAG:
+  Multiple specialized agents collaborate for retrieval and generation. Some agents focus on retrieving domain-specific knowledge, others focus on reasoning, summarization, or final response generation.
+
+2. Architecture:
+- Single-Agent:
+  Simple architecture with one retriever-generator loop.
+  
+- Multi-Agent:
+  Modular architecture with specialized agents communicating through prompts, APIs, or orchestration frameworks.
+
+3. Advantages:
+- Single-Agent:
+  - Simpler to implement and deploy.
+  - Lower computational overhead.
+  - Easier to fine-tune as a single pipeline.
+  
+- Multi-Agent:
+  - Better handling of complex queries through specialization.
+  - Scalable with domain-specific knowledge.
+  - More interpretable (transparent steps of reasoning).
+
+4. Use Cases:
+- Single-Agent:
+  - General-purpose chatbots.
+  - FAQ answering systems.
+  - Simple document Q&A.
+  
+- Multi-Agent:
+  - Enterprise search across multiple domains.
+  - Scientific research assistance.
+  - Complex multi-step reasoning tasks.
+
+5. Limitations:
+- Single-Agent:
+  - Struggles with multi-domain or highly specialized queries.
+  - Limited scalability for diverse knowledge bases.
+  
+- Multi-Agent:
+  - Higher system complexity.
+  - Requires robust coordination and prompt design.
+  - Increased latency.
+
+6. Example Tools/Frameworks:
+- Single-Agent:
+  - LangChain (basic RAG setups).
+  - OpenAI Assistants API (single retrieval/generation loop).
+  
+- Multi-Agent:
+  - AutoGPT, CrewAI (multi-agent orchestration).
+  - LangGraph for complex agent workflows.
